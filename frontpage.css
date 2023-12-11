@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    background-image: url(images/bgpicweb.jpg);
+    background-size: 100%;
+}
+.frontpage-container{
+    position: relative;
+    background-color: black;
+    opacity: 80%;
+    border-radius: 40px;
+    width: 80%;
+    height: fit-content;
+    left: 10%;
+    top: 60px;
+    padding: 20px;
+}
+.link{
+    font-family: Verdana;
+    float: right;
+    color: white;  
+    padding: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 0;
+    transition: 0.5s;
+}
+a:hover{
+    color: cyan;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 0;
+}
+#ebc{
+    margin-top: 0;
+    padding-top: 20px;
+    font-size: 24px;
+    font-family: 'Courier New';
+}
+h2{
+    color: white;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+.beaches{
+    position: relative;
+    margin-top: 100px;
+}
+#explore:hover::before {
+    left: 0;
+}
+.flex{
+    display: flex;
+}
+.left{
+    margin-left: 100px;
+}
+.desc{
+    text-align: justify;
+    font-family: Arial;
+    margin-top:  10%;
+    padding-right: 50px;
+    padding-left: 200px;
+}
+span{
+    font-size: 24px;
+}
+.exp{
+    color: white;
+    position: relative;
+    transition: 0.5s;
+    padding: 10px 20px;
+    left: 400px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid aqua;
+    font-weight: bold;
+}
+.exp:hover{
+    background-color: #39A7FF;
+
+}
